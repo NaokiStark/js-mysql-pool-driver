@@ -37,7 +37,7 @@ const conn = dbDriver.newInstance(connection_data);
 * Or use then-catch
 */
 
-let result;
+const user = 'XxXGaMeRXxX';
 
 conn.query('SELECT id, username, password FROM users WHERE username = ?', [user])
     .then( result => console.log(result) )
