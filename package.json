@@ -1,0 +1,26 @@
+{
+  "name": "mysqldriver",
+  "version": "1.0.0",
+  "description": "mysql pool driver",
+  "main": "mysql-driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaokiStark/js-mysql-pool-driver.git"
+  },
+  "keywords": [
+    "mysql-pool",
+    "node"
+  ],
+  "author": "FabiCorp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaokiStark/js-mysql-pool-driver/issues"
+  },
+  "homepage": "https://github.com/NaokiStark/js-mysql-pool-driver#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
